@@ -1,0 +1,4 @@
+useDynLib(RCStruct, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+importFrom(methods, as, new)

@@ -1,0 +1,14 @@
+Package: RCStruct
+Type: Package
+Title: C Language Struct in R
+Version: 0.1.1
+Date: 2018-02-23
+Author: Jordao Bragantini
+Maintainer: Jordao Bragantini <jordao.bragantini@gmail.com>
+Description: Package created for Google Summer of Code 2018 SymEngine.R test. 
+License: GPL (>= 2)
+Imports: methods, Rcpp
+Collate: 'RcppExports.R' 'CStruct.R'
+LinkingTo: Rcpp
+NeedsCompilation: yes
+Packaged: 2018-02-25 14:35:58 UTC; jookuma
