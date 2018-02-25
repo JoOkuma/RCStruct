@@ -5,7 +5,8 @@ This sample was created for Google Summer of Code 2018 to SymEngine.R package.
 ### Installation
 
 ```
-R CMD INSTALL <path to RCStruct>
+R CMD build <path to RCStruct directory>
+R CMD INSTALL <path to RCStruct_$version$.tar.gz>
 ```
 
 ### Example
